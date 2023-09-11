@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ihorboiar.github.io/users-app",
   "name": "test_new",
   "version": "1.0.0",
   "description": "",
@@ -7,6 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "tscheck": "tsc"
   },
   "keywords": [],
