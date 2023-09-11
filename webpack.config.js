@@ -7,7 +7,6 @@ module.exports = {
   output: {
     filename: "bundle.[fullhash].js",
     path: path.resolve(__dirname, "build"),
-    // publicPath: '/',
   },
   devServer: {
     historyApiFallback: true,
