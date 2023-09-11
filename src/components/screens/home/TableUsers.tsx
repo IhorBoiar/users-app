@@ -7,14 +7,16 @@ const TableUsers = ({ data }: ITableUsers) => {
   return (
     <table>
       <thead>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Username</th>
-      <th>Phone</th>
-      <th>E-mail</th>
-      <th>Website</th>
-      <th>Posts</th>
-      <th>Albums</th>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Phone</th>
+        <th>E-mail</th>
+        <th>Website</th>
+        <th>Posts</th>
+        <th>Albums</th>
+      </tr>
       </thead>
       <tbody>
       {data.filtered.map(user => (
